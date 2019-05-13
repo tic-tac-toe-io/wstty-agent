@@ -1,0 +1,37 @@
+{
+  "system-info": {
+    "verbose": true,
+    "ttt_defaults": {
+      "profile": "misc",
+      "profile_version": "19700101a",
+      "id": "",
+      "sn": "SANDBOX000000",
+      "alias": "UNKNOWN999999"
+    }
+  },
+  "wstty-client": {
+    "url": "https://wstty.tic-tac-toe.io",
+    "namespace": "tty",
+    "restart_timeout": 20,
+    "lookup_next_server": true
+  },
+  "http-by-server": {
+    "v1": {
+      "request_timeout": 60,
+      "monitor_timeout": 120
+    }
+  },
+  "bash-by-server": {
+    "v1": {
+      "request_timeout": 61,
+      "monitor_timeout": 121
+    }
+  },
+  "system-helpers": {
+    "helpers": {
+      "regular-gc": {
+        "period": 300
+      }
+    }
+  }
+}
