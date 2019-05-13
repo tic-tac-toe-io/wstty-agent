@@ -10,7 +10,7 @@
     }
   },
   "wstty-client": {
-    "url": "https://127.0.0.1:6030",
+    "url": "http://127.0.0.1:6030",
     "namespace": "tty",
     "restart_timeout": 20,
     "lookup_next_server": true
