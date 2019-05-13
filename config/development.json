@@ -10,7 +10,7 @@
     }
   },
   "wstty-client": {
-    "url": "https://wstty.tic-tac-toe.io",
+    "url": "https://127.0.0.1:6030",
     "namespace": "tty",
     "restart_timeout": 20,
     "lookup_next_server": true
