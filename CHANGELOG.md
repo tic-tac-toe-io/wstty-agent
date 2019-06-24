@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## [Unreleased]
+
+## [1.0.5]
+### Added
+- Use `systeminformation` module to retrieve system information
+- Automatic id/sn generation when detecting the system is Raspbian or Mac OS X
+
+### Fixed
+- Missing private ip on Ubuntu 18.04 on any SBC (e.g. Raspberry Pi), because of broken `wireless-tools` npm module
+
+## [1.0.4]
+### Fixed
+- Fix empty id string issue when running `wstty-agent` without `/tmp/ttt_system` file
+
+## [1.0.3]
+### Changed
+- Upgrade node-pty to 0.8.1 (latest)
+- Regenerate package.json in source directory
+
 ## [1.0.2] - 2019-05-13
 ### Changed
 - Change server url of default configuration of development stage to "http://127.0.0.1:6030" to connect wstty-server running on the same machine at development
