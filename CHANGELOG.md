@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.0.6]
+### Added
+- Automatic id/sn generation when detecting the system is ubuntu on am335x (BeagleBone series)
+
+
 ## [1.0.5]
 ### Added
 - Use `systeminformation` module to retrieve system information
